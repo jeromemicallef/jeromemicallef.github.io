@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Register</h1>
+    <form action="http://www.google.com"></form>
+    <label for="first-name">First Name:</label>
+    <input type="text" id="first-name" placeholder="Name">
+
+    <label for="last-name">Last Name:</label>
+    <input type="text" id="last-name" placeholder="Surname">
+
+    <p>
+        <label for="radio">Male</label>
+        <input type="radio" id="radio" name="contact" value="Male">
+
+        <label for="radio">Female</label>
+        <input type="radio" id="radio" name="contact" value="Female">
+
+        <label for="radio">Other</label>
+        <input type="radio" id="radio" name="contact" value="Other">
+
+    </p>
+
+    <p>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="Email" type="Email" required>
+
+        <label for="password">Password:</label>
+        <input id="password" name="password" placeholder="Password" type="Password" maxlength="8" required>
+
+    </p>
+
+    <p>
+        <label for="birthday">Birthday:</label>
+        <input list="Month" id="birthday" placeholder="Month">
+        <datalist id="Month">
+            <option value="January">
+            <option value="February">
+            <option value="March">
+            <option value="April">
+            <option value="May">
+            <option value="June">
+            <option value="July">
+            <option value="August">
+            <option value="September">
+            <option value="October">
+            <option value="November">
+            <option value="December">
+        </datalist>
+
+        <input list="Day" id="birthday" placeholder="Day">
+        <datalist id="Day">
+            <option value="01">
+            <option value="02">
+            <option value="03">
+            <option value="04">
+            <option value="05">
+            <option value="06">
+            <option value="07">
+            <option value="08">
+            <option value="09">
+            <option value="10">
+            <option value="11">
+            <option value="12">
+            <option value="13">
+            <option value="14">
+            <option value="15">
+            <option value="16">
+            <option value="17">
+            <option value="18">
+            <option value="19">
+            <option value="20">
+            <option value="21">
+            <option value="22">
+            <option value="23">
+            <option value="24">
+            <option value="25">
+            <option value="26">
+            <option value="27">
+            <option value="28">
+            <option value="29">
+            <option value="30">
+            <option value="31">
+        </datalist>
+
+        <input list="Year" id="birthday" placeholder="Year">
+        <datalist id="Year">
+            <option value="2000">
+            <option value="2001">
+            <option value="2002">
+            <option value="2003">
+            <option value="2004">
+            <option value="2005">
+            <option value="2006">
+            <option value="2007">
+            <option value="2008">
+            <option value="2009">
+            <option value="2010">
+        </datalist>
+
+    </p>
+
+    <p>
+        <label for="checkbox">I agree to the terms and conditions</label>
+        <input type="checkbox" id="I agree to the terms and conditions" name="I agree to the terms and conditions"
+            value="I agree to the terms and conditions">
+
+    </p>
+
+    <p>
+        <input type="submit">
+    </p>
+</body>
+
+</html>
