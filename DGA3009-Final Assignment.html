@@ -1,0 +1,146 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+
+
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_parallax -->
+    <!-- The scrollable area -->
+
+    <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area-->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top justify-content-end" style="width:100%">
+        <a class="navbar-brand" href="#">JM-20</a>
+        <ul class="navbar-nav">
+            <li><a href="#About">About</a></li>
+            <li><a href="#Portfolio">Portfolio</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+    </nav>
+
+
+    <!-- Home Background -->
+    <div id="Home" style="height: 100vh; width: 100vw; text-align: center">
+        <h2 style="padding-top:45vh"> Jerome Micallef</h2>
+    </div>
+
+
+    <!-- About -->
+    <div id="About" style="background-color:#161517; height: 100vh; width: 100vw">
+        <h1 class="left-1">
+            About
+        </h1>
+        <p1 class="d-flex justify-content-center">Currently a third-year student at the University of Malta, <br> I
+            am
+            reading for a degree in a Bachelor of Fine Arts in Digital <br> Arts course. Head over to my portfolio
+            to
+            see some of the <br> works I have created over the years :)</p1>
+    </div>
+
+
+    <!-- Portfolio -->
+    <div id="Portfolio" style="background-color:white; height: 100vh; width: 100vw">
+        <div class="row" style="margin-top: 75px">
+            <div class="col-md-10">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="width: 100%">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="PersonalPage.html" target="_blank">
+                                <img src="Images/Personal.png" class="d-block w-100" alt="Personal Work">
+                            </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="ClientPage.html" target="_blank">
+                                <img src="Images/Client.png" class="d-block w-100" alt="Client Work">
+                            </a>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div> <!-- Carousel -->
+            </div> <!-- Col-md-10 -->
+            <div class="col-md-2">
+                <h1 class="right">
+                    Portfolio
+                </h1>
+            </div>
+        </div> <!-- Class -->
+    </div>
+
+
+    <!-- Contact -->
+    <div id="Contact" style="background-color:#161517; height: 100vh; width: 100vw">
+        <h1 class="left-2">
+            Contact
+        </h1>
+
+        <p2 class="d-flex justify-content-center">Say hi :) <br> Contact me, or <br> visit my profiles</p2>
+
+        <a class="facebook-icon" href="https://www.facebook.com/jerome.micallef" target="_blank">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a class="instagram-icon" href="https://www.instagram.com/micallefjerome/" target="_blank">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a class="behance-icon" href="https://www.behance.net/jeromemica4674/projects" target="_blank">
+            <i class="fab fa-behance-square"></i>
+        </a>
+
+
+        <form>
+            <input name="name" type="text" class="feedback-input" placeholder="Your Name" />
+            <input name="email" type="text" class="feedback-input" placeholder="Your Email" />
+            <textarea name="text" class="feedback-input" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" />
+        </form>
+
+
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="DGA3009-Final Assignment.css">
+    <link rel="stylesheet" type="text/css" href="PersonalPage.html">
+    <link rel="stylesheet" type="text/css" href="ClientPage.html">
+
+
+    <script src="https://kit.fontawesome.com/451f70d323.js" crossorigin="anonymous"></script>
+
+    <link href="//db.onlinewebfonts.com/c/605c1c612570275f24508913462da771?family=Radikal" rel="stylesheet"
+        type="text/css" /> <!-- Radikal Regular -->
+
+</body>
+
+</html>

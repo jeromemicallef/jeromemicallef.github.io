@@ -1,0 +1,193 @@
+/*.title-left {
+    
+text-align: center;
+writing-mode:vertical-rl;
+/*transform-origin: left
+text-align:right;
+transform: translate(0,0%) rotate(-90deg);
+top:25%;
+right: 25;
+bottom: 25;
+left: 25;
+
+h1{
+        /*writing-mode: vertical-lr;
+        margin: 0 auto;
+        height: 70%;
+        display: flex;
+        justify-content: flex-end; 
+        font-size: 100px;
+}
+
+h2{
+    font-size: 100px;
+}
+
+p{
+    color: white;
+    font-size: 30px;
+    margin: 20%;
+}
+*/
+
+@import url(//db.onlinewebfonts.com/c/605c1c612570275f24508913462da771?family=Radikal);
+
+@font-face {font-family: "Radikal"; src: url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.eot"); src: url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.woff") format("woff"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/605c1c612570275f24508913462da771.svg#Radikal") format("svg"); }
+
+
+h2{
+  color: #211F23;
+  font-size: 100px;
+  font-family: "Radikal";
+}
+
+.right{
+  color: #211F23;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  font-family: "Radikal";
+}
+
+
+.left-1{
+  color: #211F23;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 2.5%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  font-family: "Radikal";
+}
+
+.left-2{
+  color: #211F23;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  left: 2.5%;
+  transform: translate(-50%, -50%);
+  font-size: 200px;
+  font-family: "Radikal";
+}
+
+
+.navbar-nav{
+align-content: end;
+}
+
+p1{
+  position: relative;
+  top: -100px;
+  color: white;
+  font-size: 40px;
+  font-family: "Radikal";
+}
+
+p2{
+  position: relative;
+  top: -300px;
+  left: -300px;
+  color: white;
+  font-size: 40px;
+  font-family: "Radikal";
+}
+
+nav>ul>li>a{
+  color:white;
+
+}
+
+nav>ul>li>a:hover{
+  color:gray;
+}
+
+nav>ul>li{
+  width: 100px;
+}
+
+.fab{
+  width: 100px;
+  font-size: 100px;
+  padding: 150px;
+  color: #211f23;
+}
+
+/*https://codepen.io/ZachSaucier/pen/AIJpe*/
+/*https://codepen.io/JeromeVolkswagen/pen/PowRdVp?editors=1100*/
+
+form{
+  float :right;
+  padding-right: 50px;
+}
+
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:#211F23;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:100;
+  font-size: 13px;
+  border-radius: 0px;
+  line-height: 22px;
+  background-color: white;
+  border:2px solid #211F23;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #211F23; }
+
+textarea {
+  height: 200px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 20%;
+  background:transparent;
+  border-radius:0px;
+  border:0;
+  border:2px solid #211F23;
+  cursor:pointer;
+  color:#211F23;
+  font-size:13px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:100;
+}
+
+
+/*
+
+.background {
+    
+  position:absolute;
+  display:block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  }
+
+
+ text-align: center;
+
+  */
